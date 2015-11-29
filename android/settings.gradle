@@ -1,0 +1,3 @@
+rootProject.name = 'ShareExtensionExample'
+
+include ':app'
