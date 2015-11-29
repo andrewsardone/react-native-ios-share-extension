@@ -1,9 +1,11 @@
 # React Native Share Extension Proof of Concept
 
 This is an example project in a tinkering attempt to get an [iOS Share
-Extension][ase] UI to include a React Native UI.
+Extension][ase] UI to include a React Native UI. The attempt was inspired by
+[facebook/react-native#1626 ][tick].
 
 [ase]: https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/ShareSheet.html#//apple_ref/doc/uid/TP40014214-CH12-SW1
+[tick]: https://github.com/facebook/react-native/issues/1626
 
 ## Running the iOS app
 
