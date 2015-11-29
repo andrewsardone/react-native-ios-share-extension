@@ -24,6 +24,16 @@
 		49DE12721C0B6DD50028473C /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DE12711C0B6DD50028473C /* ShareViewController.m */; };
 		49DE12751C0B6DD50028473C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DE12731C0B6DD50028473C /* MainInterface.storyboard */; };
 		49DE12791C0B6DD50028473C /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49DE126E1C0B6DD50028473C /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		49DE12B01C0B6FE80028473C /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		49DE12B11C0B6FE80028473C /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		49DE12B21C0B6FE80028473C /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		49DE12B31C0B6FE80028473C /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		49DE12B41C0B6FE80028473C /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		49DE12B51C0B6FE80028473C /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		49DE12B61C0B6FE80028473C /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		49DE12B71C0B6FE80028473C /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		49DE12B81C0B6FE80028473C /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		49DE12B91C0B6FE80028473C /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -186,6 +196,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DE12B01C0B6FE80028473C /* libRCTActionSheet.a in Frameworks */,
+				49DE12B11C0B6FE80028473C /* libRCTGeolocation.a in Frameworks */,
+				49DE12B21C0B6FE80028473C /* libRCTImage.a in Frameworks */,
+				49DE12B31C0B6FE80028473C /* libRCTLinking.a in Frameworks */,
+				49DE12B41C0B6FE80028473C /* libRCTNetwork.a in Frameworks */,
+				49DE12B51C0B6FE80028473C /* libRCTSettings.a in Frameworks */,
+				49DE12B61C0B6FE80028473C /* libRCTText.a in Frameworks */,
+				49DE12B71C0B6FE80028473C /* libRCTVibration.a in Frameworks */,
+				49DE12B81C0B6FE80028473C /* libRCTWebSocket.a in Frameworks */,
+				49DE12B91C0B6FE80028473C /* libReact.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
